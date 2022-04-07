@@ -1,0 +1,68 @@
+.container
+{
+    margin-top: 100px;
+}
+#one
+{
+    border: 1px solid blue;
+    width: 800px;
+    height: 50px;
+    background-color: rgb(101, 122, 240);
+}
+#one:hover
+{
+    background-color: rgb(240, 124, 82);
+}
+#onea
+{
+    border: 1px solid black;
+    width: 800px;
+    height: 300px;
+    background-color:white;
+    padding: 100px;
+}
+#two
+{
+    border: 1px solid blue;
+    width: 800px;
+    height: 50px;
+    background-color: rgb(101, 122, 240);
+}
+#two:hover
+{
+    background-color: rgb(240, 124, 82);
+    
+}
+#twoa
+{
+    border: 1px solid black;
+    width: 800px;
+    overflow: scroll;
+    height: 300px;
+    background-color:white;
+    padding: 100px;
+}
+#three
+{
+    border: 1px solid blue;
+    width: 800px;
+    height: 50px;
+    background-color: rgb(101, 122, 240);
+}
+#three:hover
+{
+    background-color: rgb(240, 124, 82);
+}
+#threea
+{
+    border: 1px solid black;
+    width: 800px;
+    height: 300px;
+    overflow: scroll;
+    background-color:white;
+    padding: 100px;
+}
+input:hover
+{
+    background-color: rgb(250, 223, 173)
+}

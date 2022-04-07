@@ -1,0 +1,37 @@
+<div class="container">
+ <button id="one" >1.    LOGIN OR SIGNUP</button>
+ <div id="onea" >
+    <input type="text" name="username_mobileno" placeholder="Enter Email/Mobile Number" style="width: 205px;"><br/><br/>
+    <button id="continue" style="background-color: orangered;color: whitesmoke;width: 100px;height: 40px;border-radius: 10px;" >CONTINUE</button>
+ </div>   
+ <button id="two" >2 DELIVERY ADDRESS</button>
+ <div id="twoa">
+   FLAT AND BUILDING:<input type="text"><br/><br/>
+    STREET ADDRESS:<input type="text"><br/><br/>
+    STATE: <select aria-placeholder="STATE">
+        <option  >-Select-</option>
+        <option value="Akola" >Akola</option>
+        <option value="Mumbai" >Mumbai</option>
+        <option value="Nagpur" >Nagpur</option>
+        <option value="Pune" >Pune</option>
+    </select>
+    CITY: <select aria-placeholder="CITY">
+        <option value="Akola" >Akola</option>
+        <option value="Mumbai" >Mumbai</option>
+        <option value="Nagpur" >Nagpur</option>
+        <option value="Pune" >Pune</option>
+    </select><br/><br/>
+    
+    PINCODE: <input type="number">
+
+
+ </div>   
+ <button id="three" >3. PAYMENT OPTION</button>
+ <div id="threea">
+    <input type="radio" name="payment">CREDIT/DEBIT<br/><br/>
+    <input type="radio" name="payment">NET BANKING<br/><br/>
+    <input type="radio" name="payment">UPI<br/><br/>
+    <input type="radio" name="payment">CASH<br/><br/>
+    <a routerLink="/cart" routerLinkActive="list-item-active"><button class="btn btn-outline-info">CONTINUE</button></a>
+ </div>
+</div>

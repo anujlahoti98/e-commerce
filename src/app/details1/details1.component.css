@@ -1,0 +1,12 @@
+.box1
+{
+    border:1px solid transparent;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+    width: 1500px;
+    height:600px;
+    z-index: 100;
+}
+#onea:hover
+{
+ height: 800px;
+}
